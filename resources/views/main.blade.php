@@ -3,55 +3,38 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/default.min.css">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .top-right {
-                margin-top: 30px;
-                text-align: center;
-            }
-
-            .content {
-                margin: 30px 15%;
-            }
-
-            ul.list-unstyled {
-                list-style: none;
-            }
-            ul li {
-                padding: 5px;
-            }
+        <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
 
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            <div class="top-right links">
-                    <a href="{{ url('/') }}">Top</a>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">
+                        <span class="glyphicon glyphicon-home"></span>
+                    </a>
+                </div>
             </div>
+        </nav>
 
-            <div class="content">
-                @yield('content')
-            </div>
+
+        <div id="app" class="container">
+            @yield('content')
         </div>
 
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            window.Laravel = <?php echo json_encode([
+                'csrfToken' => csrf_token(),
+            ]); ?>
+        </script>
+        <script type="text/javascript" src="{{ mix('/js/app.js') }}"></script>
     </body>
 </html>

@@ -6,12 +6,12 @@
     What's new in Laravel 5.4
 </h1>
 
-<ul style="list-style: none">
+<ul class="list-unstyled">
     <li>
         <a href="/higher-order-collection-messages">Higher Order Collection Messages</a>
     </li>
     <li>
-        <a href="https://laracasts.com">Laracasts</a>
+        <a href="/laravel-mix">Laravel Mix</a>
     </li>
     <li>
         <a href="https://laravel-news.com">News</a>

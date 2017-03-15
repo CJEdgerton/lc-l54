@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/higher-order-collection-messages', function () {
     return view('higher-order-collection-messages');
 });
+
+Route::get('/laravel-mix', function () {
+    return view('laravel-mix');
+});

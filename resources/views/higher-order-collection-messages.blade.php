@@ -2,7 +2,26 @@
 
 @section('content')
 
-<h1>Higher Order Collection Messages</h1>
+<h1>
+    Higher Order Collection Messages - 
+    <small>
+        <a 
+            href="https://laravel.com/docs/5.4/collections#higher-order-messages"
+            target="_blank">
+            <span class="glyphicon glyphicon-book"></span>
+        </a>
+    </small>
+</h1>
+
+<p>
+    Use <code>php artisan tinker</code> to play around with this.
+</p>
+
+<pre>
+    <code class="php">
+        $posts = \App\Post::all();
+    </code>
+</pre>
 
 <pre>
     <code class="php">

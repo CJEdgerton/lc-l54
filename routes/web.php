@@ -22,3 +22,7 @@ Route::get('/higher-order-collection-messages', function () {
 Route::get('/laravel-mix', function () {
     return view('laravel-mix');
 });
+
+Route::get('/fluent-routing', function () {
+    return view('fluent-routing');
+});

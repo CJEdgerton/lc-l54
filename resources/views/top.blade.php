@@ -14,7 +14,7 @@
         <a href="/laravel-mix">Laravel Mix</a>
     </li>
     <li>
-        <a href="https://laravel-news.com">News</a>
+        <a href="/fluent-routing">Fluent Routing</a>
     </li>
     <li>
         <a href="https://forge.laravel.com">Forge</a>

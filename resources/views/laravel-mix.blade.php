@@ -29,7 +29,7 @@
 </pre>
 
 <div class="alert alert-info text-center">
-    The <code>version</code> method at the end of the mix object to creates unique string in the file name to prevent caching.
+    The <code>version</code> method at the end of the mix object to create unique string in the file name to prevent caching.
 </div>
 
 <p>

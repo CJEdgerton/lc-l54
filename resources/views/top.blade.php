@@ -17,7 +17,7 @@
         <a href="/fluent-routing">Fluent Routing</a>
     </li>
     <li>
-        <a href="https://forge.laravel.com">Forge</a>
+        <a href="/resource-controller-model-boilerplate">Resource Controllers with Model Boilerplate</a>
     </li>
     <li>
         <a href="https://github.com/laravel/laravel">GitHub</a>

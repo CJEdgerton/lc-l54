@@ -26,3 +26,12 @@ Route::get('/laravel-mix', function () {
 Route::get('/fluent-routing', function () {
     return view('fluent-routing');
 });
+
+Route::get('/resource-controller-model-boilerplate', function () {
+    return view('/resource-controller-model-boilerplate');
+});
+
+
+// *** Demo Routes ***
+
+Route::get('/posts/{post}/edit', 'PostController@edit');

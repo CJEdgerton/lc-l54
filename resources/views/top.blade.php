@@ -20,7 +20,7 @@
         <a href="/resource-controller-model-boilerplate">Resource Controllers with Model Boilerplate</a>
     </li>
     <li>
-        <a href="https://github.com/laravel/laravel">GitHub</a>
+        <a href="slots-and-components">Slots and Components</a>
     </li>
 </ul>
 @endsection

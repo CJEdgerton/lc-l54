@@ -31,6 +31,10 @@ Route::get('/resource-controller-model-boilerplate', function () {
     return view('/resource-controller-model-boilerplate');
 });
 
+Route::get('/slots-and-components', function () {
+    return view('/slots-and-components');
+});
+
 
 // *** Demo Routes ***
 
